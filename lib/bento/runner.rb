@@ -1,7 +1,7 @@
-require "bento/common"
-require "bento/buildmetadata"
-require "bento/providermetadata"
-require "bento/packerexec"
+require_relative "common"
+require_relative "buildmetadata"
+require_relative "providermetadata"
+require_relative "packerexec"
 
 class BuildRunner
   include Common

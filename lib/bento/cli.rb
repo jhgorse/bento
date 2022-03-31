@@ -1,11 +1,11 @@
 require "optparse" unless defined?(OptionParser)
 require "ostruct" unless defined?(OpenStruct)
 
-require "bento/common"
-require "bento/runner"
-require "bento/normalize"
-require "bento/test"
-require "bento/upload"
+require_relative "common"
+require_relative "runner"
+require_relative "normalize"
+require_relative "test"
+require_relative "upload"
 
 class Options
   NAME = File.basename($PROGRAM_NAME).freeze

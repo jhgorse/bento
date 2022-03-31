@@ -1,5 +1,5 @@
 require "digest" unless defined?(Digest)
-require "bento/common"
+require_relative "common"
 
 class ProviderMetadata
   include Common

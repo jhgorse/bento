@@ -1,4 +1,4 @@
-require "bento/common"
+require_relative "common"
 
 class NormalizeRunner
   include Common

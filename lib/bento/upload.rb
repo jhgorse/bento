@@ -1,4 +1,4 @@
-require "bento/common"
+require_relative "common"
 
 class UploadRunner
   include Common

@@ -1,4 +1,4 @@
-require "bento/common"
+require_relative "common"
 require "mixlib/shellout" unless defined?(Mixlib::ShellOut)
 
 class BuildMetadata
